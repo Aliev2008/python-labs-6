@@ -1,0 +1,6 @@
+a = {'x': 1, 'y': 2, 'z': 3}
+b = {'w': 10, 'x': 11, 'y': 2}
+
+for item in a.items():
+    if item in b.items():
+        print(item)
